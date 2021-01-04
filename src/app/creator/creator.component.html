@@ -1,0 +1,29 @@
+<p>creator works!</p>
+
+<div class="container-fluid">
+    <form >
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Name : </label>
+            <input class="form-control"
+                (input) ="onUpdateName($event)"
+                type="text">
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Type : </label>
+            <input class="form-control" 
+                (input) ="onUpdateType($event)"
+                type="text">
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Count : </label>
+            <input class="form-control" 
+                (input) ="onUpdateCount($event)"
+                type="number">
+        </div>
+        <div class="d-flex justify-content-around">
+            <button class="btn btn-success" (click)="onCreateServer()">Submit</button>
+            <button class="btn btn-danger">Clear</button>
+        </div>
+    </form>
+
+</div>

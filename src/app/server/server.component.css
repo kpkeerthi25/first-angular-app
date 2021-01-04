@@ -1,0 +1,30 @@
+.body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.odd {
+    color: blue;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .row > div {
+    flex: 1;
+    background: lightgrey;
+    border: 1px solid grey;
+  }
+.col {
+    margin:3;
+    display: table-cell;
+    border: 1px solid;
+    width: 120px;
+    height: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
